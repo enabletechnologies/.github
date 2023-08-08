@@ -2,8 +2,7 @@ name: Bug Report
 description: Report a bug in the Enable
 title: "[Bug]: "
 labels: ["bug"]
-milestone: ["Backlog"]
-projects: ["engineering_backlog"]
+
 
 body:
   - type: markdown

@@ -1,8 +1,6 @@
 name: 'Feature Request'
 description: A new feature or task
 labels: ["enhancement"]
-milestone: ["Backlog"]
-projects: ["engineering_backlog"]
 
 body:
   - type: textarea
