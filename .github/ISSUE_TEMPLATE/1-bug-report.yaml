@@ -17,16 +17,12 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: input
-    id: reproduction
-    attributes:
-      label: Please provide a link to a minimal reproduction of the bug
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      render: Shell
   - type: dropdown
     id: version
     attributes:
@@ -36,4 +32,3 @@ body:
         - 1.0.0 (Default)
     validations:
       required: true
-
