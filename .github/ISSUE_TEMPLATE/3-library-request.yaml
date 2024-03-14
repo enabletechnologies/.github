@@ -6,31 +6,31 @@ projects: ["enabletechnologies/1"]
 
 body:
   - type: checkboxes
-      id: checks
-      attributes:
-        label: First Check
-        description: Please confirm and check all the following options.
-        options:
-          - label: Is it absolutely necessary to add this library ?
-            required: true
-            description: Can you use an existing (possibly indirect) dependency instead or write your own code?
-          - label: Are you evaluating the intended version?
-            description: Ensure you are evaluating the intended version of the software, not a personal fork nor an attacker-controlled fork
-            required: true
-          - label: Is it maintained?
-            description: Has significant recent activity (e.g., commits,releases, issues fixed , pull requests) occurred within the last year? 
-            required: true
-          - label: Is there evidence that its developers work to make it secure?
-            required: true
-            description: Ensure the package dependencies are (relatively) up to date.
-          - label: Does it have significant use?
-            required: true
-            description: Ensure sufficient github stars and forks.
-          - label: Have you ensured library has the correct license?
-            required: true
-            description: Ensure there is no limited or commercial use. In that case more discussions are required
-          - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/internal/secure_coding_guidelines.md#selecting-open-source).
-            required: true
+    id: checks
+    attributes:
+      label: First Check
+      description: Please confirm and check all the following options.
+      options:
+        - label: Is it absolutely necessary to add this library ?
+          required: true
+          description: Can you use an existing (possibly indirect) dependency instead or write your own code?
+        - label: Are you evaluating the intended version?
+          description: Ensure you are evaluating the intended version of the software, not a personal fork nor an attacker-controlled fork
+          required: true
+        - label: Is it maintained?
+          description: Has significant recent activity (e.g., commits,releases, issues fixed , pull requests) occurred within the last year? 
+          required: true
+        - label: Is there evidence that its developers work to make it secure?
+          required: true
+          description: Ensure the package dependencies are (relatively) up to date.
+        - label: Does it have significant use?
+          required: true
+          description: Ensure sufficient github stars and forks.
+        - label: Have you ensured library has the correct license?
+          required: true
+          description: Ensure there is no limited or commercial use. In that case more discussions are required
+        - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/internal/secure_coding_guidelines.md#selecting-open-source).
+          required: true
   - type: textarea
     id: description
     attributes:
