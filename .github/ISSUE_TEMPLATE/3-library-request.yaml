@@ -11,24 +11,18 @@ body:
       label: First Check
       description: Please confirm and check all the following options.
       options:
-        - label: Is it absolutely necessary to add this library ?
+        - label: Is it absolutely necessary to add this library ? Can you use an existing (possibly indirect) dependency instead or write your own code?
           required: true
-          description: Can you use an existing (possibly indirect) dependency instead or write your own code?
-        - label: Are you evaluating the intended version?
-          description: Ensure you are evaluating the intended version of the software, not a personal fork nor an attacker-controlled fork
+        - label: Are you evaluating the intended version? Ensure you are evaluating the intended version of the software, not a personal fork nor an attacker-controlled fork
           required: true
-        - label: Is it maintained?
-          description: Has significant recent activity (e.g., commits,releases, issues fixed , pull requests) occurred within the last year? 
+        - label: Is it maintained? Has significant recent activity (e.g., commits,releases, issues fixed , pull requests) occurred within the last year? 
           required: true
-        - label: Is there evidence that its developers work to make it secure?
+        - label: Is there evidence that its developers work to make it secure? Are the package dependencies are (relatively) up to date?
           required: true
-          description: Ensure the package dependencies are (relatively) up to date.
-        - label: Does it have significant use?
+        - label: Does it have significant use? Does it have sufficient github stars and forks.
           required: true
-          description: Ensure sufficient github stars and forks.
-        - label: Have you ensured library has the correct license?
+        - label: Have you ensured library has the correct license? Ensure there is no limited or commercial use. In that case more discussions are required
           required: true
-          description: Ensure there is no limited or commercial use. In that case more discussions are required
         - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/internal/secure_coding_guidelines.md#selecting-open-source).
           required: true
   - type: textarea
