@@ -8,7 +8,7 @@ body:
   - type: checkboxes
     id: checks
     attributes:
-      label: First Check
+      label: Sanity Checks
       description: Please confirm and check all the following options.
       options:
         - label: Is it absolutely necessary to add this library ? Can you use an existing (possibly indirect) dependency instead or write your own code?
