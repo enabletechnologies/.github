@@ -12,9 +12,9 @@ body:
     validations:
       required: true
   - type: textarea
-      id: test-cases
-      attributes:
-        label: Success and Failure Criteria
-        description: Provide a list of success and failure criteria which can be used create test cases
-      validations:
-        required: false
+    id: test-cases
+    attributes:
+      label: Success and Failure Criteria
+      description: Provide a list of success and failure criteria which can be used create test cases
+    validations:
+      required: false
