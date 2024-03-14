@@ -39,15 +39,15 @@ body:
     validations:
       required: true
   - type: textarea
-      id: similar_libraries
-      attributes:
-        label: Similar Library
-        description: Provide links to any other libraries which are similar.
+    id: similar_libraries
+    attributes:
+      label: Similar Library
+      description: Provide links to any other libraries which are similar.
   - type: textarea
-      id: code_evaluation
-      attributes:
-        label: What is your evaluation of its code?
-        description: Provide a brief review of software source code, and its changes over time. It can give you some insight
+    id: code_evaluation
+    attributes:
+      label: What is your evaluation of its code?
+      description: Provide a brief review of software source code, and its changes over time. It can give you some insight
   - type: textarea
     id: references
     attributes:
