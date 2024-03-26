@@ -29,7 +29,6 @@ body:
     id: description
     attributes:
       label: Description
-      required: true
       description: Describe the library and why it is required
     validations:
       required: true
