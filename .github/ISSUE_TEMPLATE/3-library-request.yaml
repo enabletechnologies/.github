@@ -39,7 +39,7 @@ body:
       label: Similar Library
       required: true
       description: Provide links to any other libraries which are similar.
-   - type: textarea
+  - type: textarea
     id: deps
     attributes:
       label: Dependencies
