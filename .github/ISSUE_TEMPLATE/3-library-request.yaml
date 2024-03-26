@@ -37,22 +37,27 @@ body:
     id: similar_libraries
     attributes:
       label: Similar Library
-      required: true
       description: Provide links to any other libraries which are similar.
+    validations:
+      required: true
   - type: textarea
     id: deps
     attributes:
       label: Dependencies
-      required: true
       description: Provide list of the all production dependency for this library
+    validations:
+      required: true
   - type: textarea
     id: code_evaluation
     attributes:
       label: What is your evaluation of its code?
       description: Provide a brief review of software source code, and its changes over time. It can give you some insight
+    validations:
+      required: true
   - type: textarea
     id: references
     attributes:
-      required: true
       label: References
       description: Provide links to references about the library.
+    validations:
+      required: true
