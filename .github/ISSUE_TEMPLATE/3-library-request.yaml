@@ -29,6 +29,7 @@ body:
     id: description
     attributes:
       label: Description
+      required: true
       description: Describe the library and why it is required
     validations:
       required: true
@@ -36,7 +37,14 @@ body:
     id: similar_libraries
     attributes:
       label: Similar Library
+      required: true
       description: Provide links to any other libraries which are similar.
+   - type: textarea
+    id: deps
+    attributes:
+      label: Dependencies
+      required: true
+      description: Provide list of the all production dependency for this library
   - type: textarea
     id: code_evaluation
     attributes:
@@ -45,5 +53,6 @@ body:
   - type: textarea
     id: references
     attributes:
+      required: true
       label: References
       description: Provide links to references about the library.
