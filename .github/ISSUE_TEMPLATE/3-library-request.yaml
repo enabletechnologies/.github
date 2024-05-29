@@ -33,6 +33,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: license
+    attributes:
+      label: License
+      description: Describe the license of the library
+    validations:
+      required: true
+  - type: textarea
     id: similar_libraries
     attributes:
       label: Similar Library
