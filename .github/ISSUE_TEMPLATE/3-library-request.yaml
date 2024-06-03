@@ -70,4 +70,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please reviewe @enabletechnologies/reviewers
+        [@enabletechnologies/reviewers](https://github.com/orgs/enabletechnologies/teams/reviewers) pls review
