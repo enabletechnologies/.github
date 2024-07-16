@@ -1,5 +1,5 @@
 name: 'Devops Application Request'
-description: A new devops task for application deoployment
+description: A new devops application deployment task  
 labels: ["devops-application"]
 projects: ["enabletechnologies/4"]
 
