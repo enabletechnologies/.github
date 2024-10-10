@@ -3,7 +3,7 @@ description: A new python or ui library
 title: "Add dependency -  "
 labels: ["dependencies"]
 projects: ["enabletechnologies/1"]
-
+type: 'Enhancement'
 body:
   - type: checkboxes
     id: checks
