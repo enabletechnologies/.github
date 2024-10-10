@@ -2,7 +2,7 @@ name: 'Devops Application Request'
 description: A new devops application deployment task  
 labels: ["devops-application"]
 projects: ["enabletechnologies/4"]
-
+type: 'Task'
 body:
   - type: textarea
     id: description
