@@ -1,6 +1,7 @@
-name: 'Feature Request'
+name: 'Epic'
 description: A new feature or task
 labels: ["needs-design"]
+title: "[Epic]: "
 projects: ["enabletechnologies/1"]
 type: 'Epic'
 body:
