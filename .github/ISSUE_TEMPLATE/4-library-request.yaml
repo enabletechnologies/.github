@@ -1,5 +1,5 @@
 name: 'Add new dependency'
-description: A new python or ui library
+description: A new python or ui library or tool 
 title: "Add dependency -  "
 labels: ["dependencies"]
 projects: ["enabletechnologies/1"]
