@@ -2,7 +2,7 @@ name: 'Feature Request'
 description: A new feature or task
 labels: ["enhancement"]
 projects: ["enabletechnologies/1"]
-
+type: 'Enhancement'
 body:
   - type: textarea
     id: description
