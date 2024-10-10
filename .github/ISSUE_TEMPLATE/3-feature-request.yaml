@@ -1,5 +1,5 @@
 name: 'Feature/Enhancement Request'
-description: A new feature or task
+description: A request, idea, feature or new functionality
 labels: ["enhancement"]
 projects: ["enabletechnologies/1"]
 type: 'Enhancement'
