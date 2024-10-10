@@ -1,0 +1,41 @@
+name: 'Feature Request'
+description: A new feature or task
+labels: ["needs-design"]
+projects: ["enabletechnologies/1"]
+type: 'Epic'
+body:
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source
+      description: Source of this requirement
+      options:
+        - Customer
+        - Internal
+        - Demo 
+        - Vision
+        - Competition
+        - Industy Experts
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Categorize the epic
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of the functionaly of the feature.Try to be as detailed as possible
+    validations:
+      required: true
+  - type: textarea
+    id: Comments
+    attributes:
+      label: Comments
+      description: Provide more detailed analysis comments
+    validations:
+      required: true
