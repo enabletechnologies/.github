@@ -2,7 +2,7 @@ name: 'Devops Infra Request'
 description: A new devops infrastructure task
 labels: ["devops-infra"]
 projects: ["enabletechnologies/4"]
-
+type: 'Task'
 body:
   - type: textarea
     id: description
