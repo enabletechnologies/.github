@@ -23,7 +23,7 @@ body:
           required: true
         - label: Have you ensured library has the correct license? Ensure there is no limited or commercial use. In that case more discussions are required
           required: true
-        - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/internal/secure_coding_guidelines.md#selecting-open-source).
+        - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/secure_coding_guidelines.md#selecting-open-source).
           required: true
   - type: textarea
     id: description
@@ -51,6 +51,13 @@ body:
     attributes:
       label: Dependencies
       description: Provide list of the all production dependency for this library
+    validations:
+      required: true
+  - type : textarea
+    id: snyk
+    attributes:
+      label: What is  [snyk advisor](https://snyk.io/advisor/) analysis  of the dependency?
+      description: Provide a brief review of snyk advisor analysis of the library
     validations:
       required: true
   - type: textarea
