@@ -31,9 +31,9 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 4.0.0
-        - 5.0.0 (Default)
+        - 5.0.0 
         - 6.0.0 
         - 7.0.0
+        - 8.0.0
     validations:
       required: true
