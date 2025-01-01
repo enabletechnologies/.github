@@ -16,10 +16,4 @@ body:
       label: Success and Failure Criteria
       description: Provide a list of success and failure criteria which can be used create test cases
     validations:
-      required: false
-  - type: input
-    id: due_date
-    attributes:
-      label: Due Date
-      description: When is this feature due?
-      input_type: date
+      required: true
