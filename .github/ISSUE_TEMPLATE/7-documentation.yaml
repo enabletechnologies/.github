@@ -1,0 +1,12 @@
+name: 'Documentation task'
+description: Documentation task to update/create markdown , design or code
+projects: ["enabletechnologies/1"]
+type: 'Documentation'
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of the functionaly of the feature.Try to be as detailed as possible
+    validations:
+      required: true
