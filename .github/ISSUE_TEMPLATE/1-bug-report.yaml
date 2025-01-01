@@ -35,9 +35,3 @@ body:
         - 8.0.0
     validations:
       required: true
-  - type: input
-    id: due_date
-    attributes:
-      label: Due Date
-      description: When is this bug due?
-      input_type: date
