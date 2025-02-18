@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a bug , unexpected problem or behavior
-title: " "
+title: "Bug"
 type: 'Bug'
 projects: ["enabletechnologies/1"]
 
