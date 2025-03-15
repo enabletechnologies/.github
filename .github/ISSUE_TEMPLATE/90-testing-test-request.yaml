@@ -1,0 +1,19 @@
+name: 'Testing Request'
+description: A new testing task
+projects: ["enabletechnologies/10"]
+type: 'Test'
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of the functionaly of the task.Try to be as detailed as possible
+    validations:
+      required: true
+  - type: textarea
+    id: test-cases
+    attributes:
+      label: Success and Failure Criteria
+      description: Provide a list of success and failure criteria which can be used create test cases
+    validations:
+      required: false
