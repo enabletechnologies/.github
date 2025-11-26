@@ -15,7 +15,7 @@ body:
       label: Description
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug !"
+      value: "Bug Description"
     validations:
       required: true
   - type: textarea
@@ -26,3 +26,4 @@ body:
       render: Shell
     validations:
       required: true
+  
