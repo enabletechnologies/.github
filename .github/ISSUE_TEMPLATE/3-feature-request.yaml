@@ -27,7 +27,7 @@ body:
           required: true
         - label: Have you updated relevant documentation and design documents?
           required: true
-        - label: Does this feature impact connector schemas/proxy schemas  or data contracts and api interfaces?
+        - label: Have you considered implications of this feature on connector schemas/proxy schemas  or data contracts and api interfaces?
           required: true       
         - label: Have you considered implications of this feature on ui models and components?
           required: true
