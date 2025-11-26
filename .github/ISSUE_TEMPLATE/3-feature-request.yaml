@@ -23,7 +23,7 @@ body:
       label: Considerations
       description: Please confirm and check all the following considerations.
       options:
-        - label: Have you considered all the dependencies for this feature? 
+        - label: Have you considered all the dependencies for this feature referencing [Development Lifecycle](https://github.com/enabletechnologies/common/blob/develop/docs/public/development_lifecycle.md)? 
           required: true
         - label: Have you updated relevant documentation and design documents?
           required: true

@@ -23,7 +23,7 @@ body:
           required: true
         - label: Have you ensured library has the correct license? Ensure there is no limited or commercial use. In that case more discussions are required
           required: true
-        - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/secure_coding_guidelines.md#selecting-open-source).
+        - label: Have you gone through the open source guidelines in [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/public/secure_coding_guidelines.md#selecting-open-source).
           required: true
   - type: textarea
     id: description
