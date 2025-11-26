@@ -31,7 +31,7 @@ body:
           required: true       
         - label: Have you considered implications of this feature on ui models and components?
           required: true
-        - label: Have you considered security implications of this feature on backend services , data storage and data processing?
+        - label: Have you considered security implications of this feature on backend services , data storage and data processing referring to [Secure coding guidelines](https://github.com/enabletechnologies/common/blob/develop/docs/public/secure_coding_guidelines.md#selecting-open-source)?
           required: true
         - label: Have you considered performance implications of this feature?
           required: true
@@ -40,4 +40,6 @@ body:
         - label: Have you considered implications of this feature on reporting and analytics?
           required: true
         - label: Have you listed out all the test cases and acceptance criteria for this feature?
+          required: true
+        - label: Have you considered implications of this feature on existing product workflows?
           required: true
