@@ -17,3 +17,27 @@ body:
       description: Provide a list of success and failure criteria which can be used create test cases
     validations:
       required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Considerations
+      description: Please confirm and check all the following considerations.
+      options:
+        - label: Have you considered all the dependencies for this feature? 
+          required: true
+        - label: Have you updated relevant documentation and design documents?
+          required: true
+        - label: Does this feature impact connector schemas/proxy schemas  or data contracts and api interfaces?
+          required: true       
+        - label: Have you considered implications of this feature on ui models and components?
+          required: true
+        - label: Have you considered security implications of this feature on backend services , data storage and data processing?
+          required: true
+        - label: Have you considered performance implications of this feature?
+          required: true
+        - label: Have you considered implications of this feature on document/disclosure generation?
+          required: true
+        - label: Have you considered implications of this feature on reporting and analytics?
+          required: true
+        - label: Have you listed out all the test cases and acceptance criteria for this feature?
+          required: true
