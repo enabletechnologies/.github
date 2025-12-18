@@ -1,6 +1,6 @@
 name: 'Testing Request'
 description: A new testing task
-projects: ["enabletechnologies/10"]
+projects: ["enabletechnologies/1"]
 type: 'Test'
 body:
   - type: textarea
